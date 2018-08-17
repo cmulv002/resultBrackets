@@ -12,3 +12,4 @@ openpyxl - https://openpyxl.readthedocs.io/en/stable/
 
 To run this program, you must use these two libraries. You can install them via pip if you know what you're doing with python. You will also need the requests and string library. Including those is shown in the code. 
 
+![alt text](https://github.com/cmulv002/resultBrackets/blob/master/scoresheet.PNG?raw=true)
