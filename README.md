@@ -47,6 +47,6 @@ for el in root.cssselect('div.match-affix-wrapper'):
                 
  ```
  
- This piece of code is where the bug is found. in root.cssselect('div.matchSectionWrapper'), normally the program would begin to iterate through the for loop for all of the matches contained in div classes match-affix-wrapper. This was the core functionality of the parser. Since this code lost fucnctionality over the span of the day, there also may have been a change in website permissions or an outside error preventing me from utilizing this function. I intend to further pursue this bug in hopes of restoring the program to its full potential. 
+ This piece of code is where the bug is found. in root.cssselect('div.matchSectionWrapper'), normally the program would begin to iterate through the for loop for all of the matches contained in div classes match-affix-wrapper. This was the core functionality of the parser. Since this code lost fucnctionality over the span of the day, there also may have been a change in website permissions or an outside error preventing me from utilizing this function. I intend to further pursue this bug in hopes of restoring the program to its full potential. Unfortunately, at this time, this bug appears to be a result of the website itself not allowing for lxml parsing.
  
  2. This program does not support differentiating between losses and disqualifications. The program counts disqualifications as losses.
