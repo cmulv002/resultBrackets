@@ -2,6 +2,24 @@
 
 This is a single file piece of code designed to generate head-to-head data for matches for tournaments for an entire year. The code relies on lxml and python for the parsing of the websites and openpyxl for writing the data to a spreadsheet. The spreadsheet included in the repository is a direct result of the code listed. The program functions using data parsed from smash.gg. 
 
+## Credits
+
+
+[LXML Documentation](https://lxml.de/)
+
+Anything you need to know about lxml can be found here. The HTML stuff is the only stuff that I used. 
+
+[Web Scraping with Python/LXML Tutorial from Stanford](http://stanford.edu/~mgorkove/cgibin/rpython_tutorials/webscraping_with_lxml.php)
+
+This is a great starting point for learning to use lxml. Since lxml does not have as much documentation as other parsing libraries, I would recommend starting here for some functioning examples and ideas on how to get started. I personally relied on the CSSSelector examples I learned here to gather the data. 
+
+[Automate the Boring Stuff with Python Chapter 12](https://automatetheboringstuff.com/chapter12/)
+
+This is a great place to learn the openpyxl(exporting to excel) that you need. I personally recommend going through this chapter and learning it because you'll end up referencing it all the time in any case. 
+
+
+
+
 
 ## Prerequisites
 
@@ -17,7 +35,8 @@ To run this program, you must use these two libraries. You can install them via 
 
 [Github](https://github.com/cmulv002/resultBrackets/blob/master/headtohead.py)
 
-This code is basically complete and will, if a specific bug is remedied, collect data for all the included variable tournaments and output them to a spreadsheet. To update this code with more tournaments, just update the tournament variables. To change the featured players, append the Top100List. If you plan to change the number of people on the list, ctrl-f for 102 and change it up or down as many people as you are adding or subtracting.
+This code is basically complete and will, if a specific bug is remedied, collect data for all the included variable tournaments and output them to a spreadsheet. To update this code with more tournaments, just update the tournament variables. To change the featured players, append the Top100List. If you plan to change the number of people on the list, ctrl-f for 102 and change it up or down as many people as you are adding or subtracting. 
+
 
 
 ## Sample Output
