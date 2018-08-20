@@ -42,7 +42,7 @@ Here are the core functions of the program.
 ### Separating Winners and Losers
 
 '''
-for el in root.cssselect('div.match-affix-wrapper'): #div.match-affix-wrapper is the match selector
+  for el in root.cssselect('div.match-affix-wrapper'): #div.match-affix-wrapper is the match selector
         
 
         for elemCheck1 in el.cssselect('div.matchSectionWrapper'): 
@@ -99,7 +99,7 @@ for el in root.cssselect('div.match-affix-wrapper'): #div.match-affix-wrapper is
         incrementNameList = []
         winnercheck = None
         x = x+1
-  '''
+'''
   
 This function is rather daunting so here's an overview. This function first creates a list of all of the matches by using the div tag match-affix-wrapper. After that, it parses through to detect which player won the match, and which lost, and following that ammends the winner list or loser list. 
 
